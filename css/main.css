@@ -8,3 +8,9 @@ body {
   background-color: #e0e0e0;
   font-family: 'Lato', sans-serif;
 }
+
+main {
+  background: url("http://www.intrawallpaper.com/static/images/thor_2_the_dark_world-1920x1080.jpg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
