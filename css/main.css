@@ -7,10 +7,37 @@ html, body {
 body {
   background-color: #e0e0e0;
   font-family: 'Lato', sans-serif;
+  background: url("../img/back.jpg") no-repeat center;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
 }
 
-main {
-  background: url("http://www.intrawallpaper.com/static/images/thor_2_the_dark_world-1920x1080.jpg") no-repeat center;
-  background-size: cover;
+/* Aligner content */
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 70px;
+}
+
+hr {
+  margin-top: -50px;
+  border-color: #f90;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  margin-top: -10px;
 }
