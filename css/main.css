@@ -55,3 +55,7 @@ h1 {
 .links i:hover {
   color: #848980;
 }
+
+h5 {
+  font-weight: bold;
+}
