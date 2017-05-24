@@ -32,9 +32,19 @@ header {
   display: flex;
 }
 
+.top-left h5 {
+  margin-top: -28px;
+  margin-left: 40px;
+  color: #000;
+}
+
 .top-right {
   margin-top: 18px;
   margin-left: 75px;
+}
+
+hr {
+  border: 1px solid #848980;
 }
 
 h1 {
