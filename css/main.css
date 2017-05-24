@@ -5,11 +5,10 @@ html, body {
 }
 
 body {
-  background-color: #e0e0e0;
+  background-color: #ffffff;
   font-family: 'Lato', sans-serif;
-  background: url("../img/back.jpg") no-repeat center;
-  background-size: cover;
-  font-family: "Lato", sans-serif;
+  /*background: url("../img/back.jpg") no-repeat center;
+  background-size: cover;*/
 }
 
 /* Aligner content */
@@ -25,19 +24,13 @@ body {
   max-width: 50%;
 }
 
+.Aligner-top {
+  align-self: flex-start;
+}
+
 h1 {
-  color: #ffffff;
-  font-size: 70px;
-}
-
-hr {
-  margin-top: -50px;
-  border-color: #f90;
-}
-
-h2 {
-  color: #ffffff;
-  font-size: 36px;
+  color: #000000;
+  font-size: 50px;
   text-align: center;
-  margin-top: -10px;
+  margin-top: 30px;
 }
