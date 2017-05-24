@@ -28,9 +28,30 @@ body {
   align-self: flex-start;
 }
 
+header {
+  display: flex;
+}
+
+.top-right {
+  margin-top: 18px;
+  margin-left: 55px;
+}
+
 h1 {
   color: #000000;
   font-size: 50px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 45px;
+}
+
+.links {
+  list-style: none;
+}
+
+.links i {
+  color: #000;
+}
+
+.links i:hover {
+  color: #848980;
 }
