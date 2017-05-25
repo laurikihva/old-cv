@@ -1,13 +1,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
 body {
   background-color: #ffffff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto slab', sans-serif;
   color: #3c4349;
+  background: url("../img/background.jpg") no-repeat center;
+  background-size: cover;
 }
 
 /* Aligner content */
@@ -16,7 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: auto;
 }
 
 .Aligner-item {
@@ -61,7 +62,7 @@ dt {
   -o-transition: all .5s;
   transition: all .5s;
 }
-
+/* Ul styles */
 ul {
   list-style: none;
 }
@@ -78,7 +79,7 @@ ul > li {
   height: 50px;
   border-radius: 50%;
   font-size: 24px;
-  color: #f1f1f1;
+  color: #ffffff;
   line-height: 52px;
   text-align: center;
   background-color: #c900c9;
@@ -103,7 +104,7 @@ ul > li {
   top: -7px;
   left: -7px;
   padding: 7px;
-  box-shadow: 0 0 0 4px #f1f1f1;
+  box-shadow: 0 0 0 4px #ffffff;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   -ms-transition: all .5s;
@@ -117,7 +118,7 @@ ul > li {
   opacity: 0;
 }
 .icon-effect-1a .icon:hover {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   color: #c900c9;
 }
 .icon-effect-1a .icon:hover:after {
@@ -136,6 +137,6 @@ ul > li {
   }
   
   .skills {
-    margin-top: -80px;
+    margin-top: -30px;
   }
 }
