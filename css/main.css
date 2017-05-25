@@ -140,17 +140,12 @@ ul > li {
 }
 
 @media (min-width: 35em) {
-  .ed {
-    margin-left: -190px;
-  }
-  
   .work {
-    margin-left: 190px;
+    margin-left: 325px;
     margin-top: -80px;
   }
   
   .skills {
-    margin-left: -190px;
     margin-top: -80px;
   }
 }
