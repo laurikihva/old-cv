@@ -9,6 +9,7 @@ body {
   color: #3c4349;
   background: url("../img/background.jpg") no-repeat center;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 /* Aligner content */
@@ -51,6 +52,34 @@ h1 {
 
 dt {
   font-weight: bold;
+}
+
+.top-left {
+  animation-delay: 0s;
+}
+
+.links {
+  animation-delay: 0.5s;
+}
+
+.top-border {
+  animation-delay: 0.5s;
+}
+
+.ed {
+  animation-delay: 1.2s;
+}
+
+.work {
+  animation-delay: 1.6s;
+}
+
+.skills {
+  animation-delay: 2s;
+}
+
+.bot-border {
+  animation-delay: 2.4s;
 }
 
 /* Icons content */
