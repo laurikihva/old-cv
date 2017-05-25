@@ -138,3 +138,19 @@ ul > li {
   transform: scale(1);
   opacity: 1;
 }
+
+@media (min-width: 35em) {
+  .ed {
+    margin-left: -190px;
+  }
+  
+  .work {
+    margin-left: 190px;
+    margin-top: -80px;
+  }
+  
+  .skills {
+    margin-left: -190px;
+    margin-top: -80px;
+  }
+}
