@@ -8,8 +8,6 @@ body {
   background-color: #ffffff;
   font-family: 'Lato', sans-serif;
   color: #3c4349;
-  /*background: url("../img/back.jpg") no-repeat center;
-  background-size: cover;*/
 }
 
 /* Aligner content */
@@ -30,7 +28,6 @@ body {
 }
 
 header {
-  /*display: flex;*/
   text-align: center;
 }
 
@@ -38,11 +35,6 @@ header {
   margin-top: -28px;
   /*margin-left: 40px;*/
   color: #000;
-}
-
-.top-right {
-  /*margin-top: 18px;
-  margin-left: 75px;*/
 }
 
 hr {
@@ -60,6 +52,8 @@ dt {
   font-weight: bold;
 }
 
+/* Icons content */
+
 .transition-animation {
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
@@ -67,7 +61,7 @@ dt {
   -o-transition: all .5s;
   transition: all .5s;
 }
-/* Ul styles */
+
 ul {
   list-style: none;
 }
@@ -75,11 +69,7 @@ ul > li {
   display: inline;
   margin-right: 20px;
 }
-/*
-* Icon styles
-*
-* There are styles for icon and everything which are connected with it.
-*/
+
 .icon {
   display: inline-block;
   position: relative;
@@ -139,7 +129,7 @@ ul > li {
   opacity: 1;
 }
 
-@media (min-width: 35em) {
+@media (min-width: 45em) {
   .work {
     margin-left: 325px;
     margin-top: -80px;
