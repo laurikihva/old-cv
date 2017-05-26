@@ -66,20 +66,24 @@ dt {
   animation-delay: 0.5s;
 }
 
-.ed {
+.me {
   animation-delay: 1.2s;
 }
 
-.work {
+.ed {
   animation-delay: 1.6s;
 }
 
-.skills {
+.work {
   animation-delay: 2s;
 }
 
+.skills {
+  animation-delay: 2.8s;
+}
+
 .bot-border {
-  animation-delay: 2.4s;
+  animation-delay: 2.8s;
 }
 
 /* Icons content */
