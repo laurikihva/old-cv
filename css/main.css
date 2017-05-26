@@ -39,7 +39,6 @@ main {
 
 .top-left h5 {
   margin-top: -28px;
-  /*margin-left: 40px;*/
   color: #000;
 }
 
@@ -65,38 +64,6 @@ dt {
   max-width: 80%;
   float: left;
   margin: 0 10px 0 0;
-}
-
-.top-left {
-  animation-delay: 0s;
-}
-
-.links {
-  animation-delay: 0.5s;
-}
-
-.top-border {
-  animation-delay: 0.5s;
-}
-
-.me {
-  animation-delay: 1.2s;
-}
-
-.ed {
-  animation-delay: 1.6s;
-}
-
-.work {
-  animation-delay: 2s;
-}
-
-.skills {
-  animation-delay: 2.8s;
-}
-
-.bot-border {
-  animation-delay: 2.8s;
 }
 
 /* Icons content */
