@@ -57,6 +57,10 @@ dt {
   font-weight: bold;
 }
 
+.skills dd {
+  display: inline;
+}
+
 .me img {
   border-radius: 50%;
   border: 1px solid white;
