@@ -15,6 +15,18 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <div id="overlay">
+      <div id="specialBox">
+        <form name="signup" method="post" action="" class="form-body">
+          <i class="fa fa-2x fa-times x-btn overlay-tog close"></i>
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="YourName@email.com" required>
+          <textarea type="text" name="message" placeholder="Your message" required></textarea>
+          <button class="btn" type="submit">Send mail</button>
+        </form>
+      </div> <!-- specialBox -->
+    </div> <!-- overlay -->
+    
     <div class="Aligner">
       <div class="Aligner-top">
         <header>
@@ -30,8 +42,7 @@
                 </a>
               </li>
               <li>
-                <a title="Send me a mail" href="#" class="icon">
-                  <i class="fa fa-envelope-o"></i>
+                <i class="fa fa-envelope-o icon overlay-tog" title="Send me a mail"></i>
                 </a>
               </li>
               <li>
@@ -99,7 +110,17 @@
         <hr class="bot-border" data-kui-anim="slideInDown">
       </div> <!-- aligner-top -->
     </div> <!-- aligner -->
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/kissui.scrollanim/0.3.0/scrollanim.js"></script>
-    <script>kissuiScrollAnim.setOption('autoReset', false)</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <script>
+      kissuiScrollAnim.setOption('autoReset', false)
+      
+      $(document).ready(function(){
+        $('.overlay-tog').click(function(){
+          $('#overlay').slideToggle(300);
+        })});
+    </script>
   </body>
 </html>

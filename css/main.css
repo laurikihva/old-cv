@@ -96,6 +96,7 @@ ul > li {
   line-height: 52px;
   text-align: center;
   background-color: #c900c9;
+  cursor: pointer;
 }
 .icon:after {
   position: absolute;
@@ -141,6 +142,50 @@ ul > li {
   -o-transform: scale(1);
   transform: scale(1);
   opacity: 1;
+}
+
+/* Overlay email content */
+
+#overlay {
+  display: none;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+#specialBox {
+  margin: 250px auto 0px auto;
+  width: 400px;
+  height: 300px;
+  padding-left: 25px;
+  padding-top: 5px;
+  background: #fff;
+}
+
+.form-body {
+  max-width: 350px;
+}
+
+.x-btn {
+  float: right;
+  cursor: pointer;
+  padding-bottom: 10px;
+  color: #c900c9;
+}
+
+.x-btn:hover {
+  color: #a9a9a9;
+}
+
+.btn {
+  background-color: #c900c9;
+}
+
+.btn:hover {
+  background-color: #a9a9a9;
+  border-color: #a9a9a9;
 }
 
 @media (min-width: 45em) {
