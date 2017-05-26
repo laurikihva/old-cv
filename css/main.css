@@ -58,6 +58,15 @@ dt {
   font-weight: bold;
 }
 
+.me img {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 80px;
+  max-width: 80%;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
 .top-left {
   animation-delay: 0s;
 }
@@ -171,6 +180,11 @@ ul > li {
   main {
     padding-left: 0px;
   }
+  
+  .ed {
+    margin-top: 40px;
+  }
+  
   .work {
     margin-left: 325px;
     margin-top: -80px;
