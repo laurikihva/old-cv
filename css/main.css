@@ -33,6 +33,10 @@ header {
   text-align: center;
 }
 
+main {
+  padding-left: 30px;
+}
+
 .top-left h5 {
   margin-top: -28px;
   /*margin-left: 40px;*/
@@ -164,6 +168,9 @@ ul > li {
 }
 
 @media (min-width: 45em) {
+  main {
+    padding-left: 0px;
+  }
   .work {
     margin-left: 325px;
     margin-top: -80px;
